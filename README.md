@@ -13,11 +13,228 @@ workin progress..
 
 Please refer to https://github.com/christiandavid/gatsby-theme-byfolio if you wish to use this for your own site, this repo will be under development and not to be use in a prodcution enviroment at this time. 
 
-## want to contribute? 
+### want to contribute? 
 fork it, do some change and pull request. contact me @ marander@pm.me 
 
+## tranistion useage
 
-......................dottet-line......................
+[DEMO-page](https://gatsby-plugin-transition-link.netlify.com/)
+
+### TransitionLink
+
+TransitionLink is a flexible and powerful way to write your own page transitions. If you want to use some default transitions with minimal effort, try AniLink.
+
+TRANSITIONLINK
+USAGE EXAMPLES
+PAGE & TEMPLATE TRANSITION PROPS
+PROPS & OPTIONS
+USAGE
+There are two main ways to use TransitionLink.
+
+Call a trigger function to manipulate the DOM with something like gsap.
+Use the TransitionState component alongside TransitionLink or use page / template props to animate your components with something like react-spring, react-pose or CSS transitions.
+Check below for documentation of all available props and transition options.
+
+Here is a brief example of what a TransitionLink might look like for a function based gsap transition.
+```
+<TransitionLink
+  to="/page-2"
+  exit={{
+    trigger: ({ exit, node }) => this.interestingExitAnimation(exit, node),
+    length: 1
+  }}
+  entry={{
+    delay: 0.6
+  }}
+>
+  Go to page 2
+</TransitionLink>
+```
+
+This is an example of what a TransitionLink might look like for a state based transition using react-spring or react-pose. See the TransitionState component docs for more info on what your components might look like.
+
+```
+<TransitionLink
+  to="/page-2"
+  exit={{
+    length: 1
+  }}
+  entry={{
+    delay: 0.6
+  }}
+>
+  Go to page 2
+</TransitionLink>
+```
+
+### PAGE / TEMPLATE PROPS
+
+Your pages and templates will receive three props:
+``
+transitionStatus
+entry
+exit
+```
+const PageOrTemplate = ({ children, transitionStatus, entry, exit}) => {
+    console.log(transitionStatus, entry, exit)
+    return <div className={transitionStatus}>{children}</div>;
+}
+```
+transitionStatus contains the current page transitions status (either exiting, exited, entering, or entered).
+
+exit and entry contain the entry and exit props and state passed from TransitionLink.
+```
+<TransitionLink
+  to="/page-2"
+  exit={{
+    length: 1
+    state: { pass: 'this to the exiting page' }
+  }}
+  entry={{
+    ...
+    state: { you: 'can add anything you want here' }
+  }}
+>
+  Go to page 2
+</TransitionLink>
+```
+In some cases this can cause performance issues because there are extra re-renders happening on your pages or templates. You can disable this with a plugin option.
+
+```
+    {
+      resolve: 'gatsby-plugin-transition-link',
+      options: {
+        injectPageProps: false,
+      },
+    },
+```
+### PROPS AND OPTIONS
+
+#### TO, ACTIVECLASS & CLASSNAME PROPS
+
+These are used exactly as they are in gatsby-link.
+```
+<TransitionLink to="/page-2" activeClass="active" className="transition-link">
+  Go to page 2
+</TransitionLink>
+```
+#### EXIT & ENTRY PROPS
+
+Each takes an object of transition options to be applied to the exiting and entering pages respectively.
+```
+<TransitionLink
+  to="/page-2"
+  exit={{
+    ... // exit transition options
+  }}
+  entry={{
+    ... // entry transition options
+  }}
+>
+  Go to page 2
+</TransitionLink>
+```
+#### TRIGGER OPTION
+
+This takes a function with access to the DOM node of the exiting or entering page, the users mouse event, and both the full exit and entry props.
+```
+exit={{
+  trigger: ({ node, e, exit, entry }) => console.log(node, e, exit, entry)
+  // here node refers to the DOM node of the exiting page
+}}
+entry={{
+  trigger: ({ node, e, exit, entry }) => console.log(node, e, exit, entry)
+  // here node refers to the DOM node of the entering page
+}}
+```
+#### LENGTH OPTION
+
+This is the duration in seconds of the exit and/or entry animation. If no delay is specified these will start at the same time.
+```
+exit={{
+  length: 2
+}}
+entry={{
+  length: 1
+}}
+```
+#### DELAY OPTION
+
+This is the duration in seconds to delay before beginning the animation. See the timeline for more information on how this effects animation duration.
+```
+entry={{
+  delay: 0.5
+}}
+ZINDEX OPTION
+This is the zIndex of the page wrapper.
+
+exit={{
+  zIndex: 2 // exit default is 0
+}}
+entry={{
+  zIndex: 0 // entry default is 1
+}}
+```
+#### STATE OPTION
+
+This is the state to be passed as props to the page or template component of the exiting or entering page. It is also accessible anywhere in your app using the TransitionState component.
+```
+exit={{
+  state: {
+    thisIs: 'passed to the exiting page'
+  }
+}}
+entry={{
+  state: {
+    thisIs: 'passed to the entering page'
+  }
+}}
+```
+#### APPEARAFTER OPTION
+
+The appearAfter option will keep a page hidden, but rendered for the amount of time specified. This is useful for if you want to measure an element on the page before displaying it.
+```
+<TransitionLink
+    entry={{
+        appearAfter: 2,
+        length: 1,
+    }}
+>
+    Go to page 2
+</TransitionLink>
+```
+#### TRIGGER PROP
+
+The trigger prop takes a function that is the equivalent of combining the entry and exit trigger functions. This allows you to do things like measure elements on the entering and exiting pages and morph one element into another.
+``` 
+<TransitionLink
+    entry={{
+        appearAfter: 2,
+        length: 1,
+    }}
+    trigger={async pages => {
+        // wait until we have access to both pages
+        const exit = await pages.exit
+        const entry = await pages.entry
+        // here we can access both pages
+
+
+        // You could measure the entry element here
+        
+        // start exit animation based on measurements if you want 
+        // wait for the entering page to become visible
+        await entry.visible
+        // the entering page is visible here.
+        // if you want you can animate it now!
+    }}
+>
+    Maybe morph to page 3
+</TransitionLink>
+``` 
+
+
+## ......................dottet-line......................  
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/christiandavid/gatsby-theme-byfolio/blob/dev/LICENSE)
 
 Initially this was a personal portfolio made in GatsbyJs, now it's a Gatsby theme available to anyone who wants to tell their work history focusing only on the content.
