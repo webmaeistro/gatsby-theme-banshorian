@@ -7,12 +7,12 @@ module.exports = {
         path: `src/`,
         imagesPath: `src/images/`,
         iconFile: `src/images/icon.png`,
-        siteTitle: `Portfolio`,
-        siteUrl: `https://www.christianibarguen.com`,
-        siteName: `Christian David Ibarguen`,
-        siteShortName: `CD`,
+        siteTitle: `Software developer CV Martin Andersen`,
+        siteUrl: `https://martin.sh.now`,
+        siteName: `Martin Andersen webmaeistro`,
+        siteShortName: `MA`,
         siteDescription: `This cool App contains information about my work experience as a software developer.`,
-        siteKeywords: `Software developer, Full Stack Developer`,
+        siteKeywords: `Application developer, Full Stack Developer, Front-end`,
         useMozJpeg: true,
         menuLinks: [
           // title = Link text
@@ -27,29 +27,29 @@ module.exports = {
           { name: `skills`, title: `Skills`, color: `#d52d43`, link: `` },
           { name: `aboutMe`, title: `About Me`, color: `#fff`, link: `` },
         ],
-        email: `christian@davidibarguen.com`,
+        email: `marander@protonmail.com`,
         social: {
           // Usernames
-          twitter: `ichristiandavid`,
-          gitHub: `christiandavid`,
-          stackOverflow: `967956/christian-david`,
-          linkedIn: `in/christianibarguen/`,
-          resumeInPdf: `/CV-19.pdf`, // url or local link
+          twitter: `webmaeistro`,
+          gitHub: `webmaeistro`,
+          stackOverflow: `/`,
+          linkedIn: `in/martin-andersen`,
+          resumeInPdf: `/CV-20.pdf`, // url or local link
         },
         homePage: {
           availableToHire: true,
           dotColors: ["#0e3e1e", "#6CC551"],
-          h1Text: `Hi!, I'm Christian David Ibarguen`,
-          h2Text: `I'm a Full Stack Developer who loves working in Backend, I have
-              worked as a software developer since 2006.`,
+          h1Text: `Hi!, I'm Martin Andersen`,
+          h2Text: `I'm a DevOps developer, who loves to make threejs + p5js WEBGL 3D animations. I have
+              worked as a software developer since 2011.`,
           typewriter: [
             `Coding is my passion 😎`,
             `I'm a 🍕 lover`,
-            `I'm a pretty fast learner and always interested in learning new technologies 🤓`,
-            `I think one of my values is the <strong>ability to resolve problems<strong>`,
+            `I'm a fast learner and always interested in learning new technologies 🤓`,
+            `I think one of my values is the <strong>ability to find solutions to problems<strong>`,
             `I like to share what I know 👨‍🏫`,
-            `In my non-coding hours, I'm at the 🏋‍`,
-            `I also do design and UX work <span style='color: #27ae60;'>occasionally</span>`,
+            `In my non-coding hours, I'm a electro IoT nerd and a family man.`,
+            `I also do design and UX work <span style='color: #27ae60;'>using Figma.com</span>`,
           ],
         },
         // Color for menu background
@@ -83,7 +83,7 @@ module.exports = {
           anonymize_ip: true,
           cookie_expires: 0,
           send_page_view: true,
-          cookie_name: `christianibarguen.com`,
+          cookie_name: `martin.now.sh`,
         },
         // This object is used for configuration specific to this plugin
         pluginConfig: {
