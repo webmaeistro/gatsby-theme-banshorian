@@ -15,7 +15,7 @@
     "test:integration:ci": "start-server-and-test develop http://localhost:8000 cy:run"
   },
   "dependencies": {
-    "gatsby-theme-banshorian": "^1.1.0",
+    "gatsby-theme-banshorian": "^1.1.1",
     "gatsby": "^2.18.12",
     "gatsby-plugin-google-gtag": "^1.1.19",
     "react": "^16.12.0",
