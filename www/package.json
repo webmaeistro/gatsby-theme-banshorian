@@ -1,6 +1,6 @@
 {
   "private": true,
-  "name": "www",
+  "name": "martin-andersen-cv",
   "version": "1.0.0",
   "license": "MIT",
   "scripts": {
@@ -15,7 +15,7 @@
     "test:integration:ci": "start-server-and-test develop http://localhost:8000 cy:run"
   },
   "dependencies": {
-    "@christiandavid/gatsby-theme-byfolio": "*",
+    "gatsby-theme-banshorian": "^1.1.0",
     "gatsby": "^2.18.12",
     "gatsby-plugin-google-gtag": "^1.1.19",
     "react": "^16.12.0",

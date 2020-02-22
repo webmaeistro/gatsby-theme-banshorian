@@ -53,8 +53,8 @@ export default ({ children }) => {
         </div>
         <div className="copy">
           <a
-            href="https://github.com/webmaiestro/gatsby-theme-banshorian"
-            rel=""
+            href="https://twitter.com/webmaeistro"
+            rel="no follow"
             className="nolink"
             target="_blank"
           >
@@ -66,7 +66,7 @@ export default ({ children }) => {
                     <use xlinkHref="#icon-heart"></use>
                   </svg>
                 </div>
-                <div>by Martin Andersen using GatsbyJS</div>
+                <div> by Martin Andersen, using GatsbyJS</div>
               </>
             ) : (
               <>

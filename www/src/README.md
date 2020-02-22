@@ -1,14 +1,14 @@
 # gatsby-theme-byfolio
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/webmaiestro/gatsby-theme-banshorian/blob/dev/LICENSE)
-[![CircleCI](https://circleci.com/gh/webmaiestro/gatsby-theme-banshorian.svg?style=svg)](https://circleci.com/gh/webmaiestro/gatsby-theme-banshorian)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/christiandavid/gatsby-theme-byfolio/blob/dev/LICENSE)
+[![CircleCI](https://circleci.com/gh/christiandavid/gatsby-theme-byfolio.svg?style=svg)](https://circleci.com/gh/christiandavid/gatsby-theme-byfolio)
 ![Twitter Follow](https://img.shields.io/twitter/follow/iChristianDavid?style=social)
 
 Initially this was a personal portfolio made in GatsbyJs, now it's a Gatsby theme available to anyone who wants to tell their work history focusing only on the content.
 
-![Gatsby Portfolio](https://raw.githubusercontent.com/webmaiestro/gatsby-theme-banshorian/dev/readme-files/Byfolio.jpg)
+![Gatsby Portfolio](https://raw.githubusercontent.com/christiandavid/gatsby-theme-byfolio/dev/readme-files/Byfolio.jpg)
 
-![Portfolio](https://raw.githubusercontent.com/webmaiestro/gatsby-theme-banshorian/dev/readme-files/portfolio.gif)
+![Portfolio](https://raw.githubusercontent.com/christiandavid/gatsby-theme-byfolio/dev/readme-files/portfolio.gif)
 
 - [Installation](#installation)
 - [Configuration](#configuration)
@@ -24,7 +24,7 @@ Initially this was a personal portfolio made in GatsbyJs, now it's a Gatsby them
 ```sh
 mkdir portfolio && cd portfolio
 yarn init -y
-yarn add react react-dom gatsby @webmaiestro/gatsby-theme-banshorian
+yarn add react react-dom gatsby @christiandavid/gatsby-theme-byfolio
 ```
 
 Create gatsby-config.js file and load the plugin
@@ -34,7 +34,7 @@ Create gatsby-config.js file and load the plugin
 module.exports = {
   plugins: [
     {
-      resolve: `@webmaiestro/gatsby-theme-banshorian`,
+      resolve: `@christiandavid/gatsby-theme-byfolio`,
     },
   ],
 }
@@ -55,7 +55,7 @@ After each modification in gatsby-config.js it is necessary to restart the site 
 module.exports = {
   plugins: [
     {
-      resolve: `@webmaiestro/gatsby-theme-banshorian`,
+      resolve: `@christiandavid/gatsby-theme-byfolio`,
       options: {
         basePath: ``,
         path: `src/`,
@@ -282,7 +282,7 @@ I recommend using [Coolors.co](https://coolors.co/) to select a color palette an
 You can change the color of the text and the background of each page, for example:
 
 ```js
-// src/@webmaiestro/gatsby-theme-banshorian/layout/layoutColors.css.js
+// src/@christiandavid/gatsby-theme-byfolio/layout/layoutColors.css.js
 import { css } from "@emotion/core"
 import lineSvg from "../../../static/assets/line.svg"
 
@@ -354,7 +354,7 @@ const styles = css`
 export default styles
 ```
 
-You can change the about-me text in the "src/@webmaiestro/gatsby-theme-banshorian/contentJSON/about-me.json" file, for example:
+You can change the about-me text in the "src/@christiandavid/gatsby-theme-byfolio/contentJSON/about-me.json" file, for example:
 
 ```json
 [

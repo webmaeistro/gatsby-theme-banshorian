@@ -1,15 +1,15 @@
 module.exports = {
   plugins: [
     {
-      resolve: `@christiandavid/gatsby-theme-byfolio`,
+      resolve: `gatsby-theme-banshorian`,
       options: {
         basePath: ``,
         path: `src/`,
         imagesPath: `src/images/`,
         iconFile: `src/images/icon.png`,
         siteTitle: `Software developer CV Martin Andersen`,
-        siteUrl: `https://martin.sh.now`,
-        siteName: `Martin Andersen webmaeistro`,
+        siteUrl: `https://martin-andersen-cv.now.sh`,
+        siteName: `CV - Martin Andersen webmaeistro`,
         siteShortName: `MA`,
         siteDescription: `This cool App contains information about my work experience as a software developer.`,
         siteKeywords: `Application developer, Full Stack Developer, Front-end`,
@@ -17,15 +17,15 @@ module.exports = {
         menuLinks: [
           // title = Link text
           // color = Animation background color on click
-          { name: `home`, title: `Home`, color: `#000`, link: `` },
+          { name: `home`, title: `Home`, color: `#000`, link: `home` },
           {
             name: `experience`,
             title: `Experience`,
             color: `#3a3d98`,
             link: ``,
           },
-          { name: `skills`, title: `Skills`, color: `#d52d43`, link: `` },
-          { name: `aboutMe`, title: `About Me`, color: `#fff`, link: `` },
+          { name: `skills`, title: `Skills`, color: `#d52d43`, link: `skills` },
+          { name: `aboutMe`, title: `About Me`, color: `#fff`, link: `about` },
         ],
         email: `marander@protonmail.com`,
         social: {
@@ -75,7 +75,7 @@ module.exports = {
       resolve: `gatsby-plugin-google-gtag`,
       options: {
         trackingIds: [
-          `UA-151335375-1`, // Google Analytics / GA
+          `UA-`, // Google Analytics / GA
         ],
         // This object gets passed directly to the gtag config command
         // This config will be shared across all trackingIds
@@ -83,7 +83,7 @@ module.exports = {
           anonymize_ip: true,
           cookie_expires: 0,
           send_page_view: true,
-          cookie_name: `martin.now.sh`,
+          cookie_name: `martin-andersen-cv.now.sh`,
         },
         // This object is used for configuration specific to this plugin
         pluginConfig: {

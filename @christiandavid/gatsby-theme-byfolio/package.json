@@ -1,7 +1,8 @@
 {
-  "name": "@christiandavid/gatsby-theme-byfolio",
+  "name": "gatsby-theme-banshorian",
+  "private": false,
   "description": "A simplified way to create a portfolio using GatsbyJS",
-  "author": "Christian David Ibarguen <christian@davidibarguen.com>",
+  "author": "webmaeistro <marander@pm.me>",
   "main": "index.js",
   "version": "1.1.0",
   "license": "MIT",
@@ -9,7 +10,7 @@
     "gatsby",
     "gatsby-theme",
     "gatsby-plugin",
-    "byfolio"
+    "banshorian"
   ],
   "scripts": {
     "clean": "gatsby clean",
@@ -72,9 +73,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/christiandavid/gatsby-theme-byfolio"
+    "url": "https://github.com/webmaiestro/gatsby-theme-banshorian"
   },
   "bugs": {
-    "url": "https://github.com/christiandavid/gatsby-theme-byfolio/issues"
+    "url": "https://github.com/webmaiestro/gatsby-theme-banshorian/issues"
   }
 }
