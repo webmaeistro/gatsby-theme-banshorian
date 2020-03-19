@@ -41,7 +41,7 @@ exports.onCreatePage = ({ page, actions }, themeOptions) => {
 
   if (
     basePath &&
-    /gatsby-theme-byfolio\/src\/pages/g.test(page.componentPath) &&
+    /gatsby-theme-banshorian\/src\/pages/g.test(page.componentPath) &&
     components.includes(page.internalComponentName)
   ) {
     const { createPage, deletePage } = actions

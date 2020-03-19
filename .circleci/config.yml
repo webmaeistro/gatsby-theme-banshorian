@@ -1,7 +1,7 @@
 version: 2
 jobs:
   test:
-    working_directory: ~/gatsby-theme-byfolio
+    working_directory: ~/gatsby-theme-banshorian
     docker:
       - image: circleci/node:13.3.0
     steps:
@@ -30,7 +30,6 @@ jobs:
           command: yarn workspaces run test
       - store_artifacts:
           path: test-results.xml
-          prefix: tests
       - store_test_results:
           path: test-results.xml
 workflows:
