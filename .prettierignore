@@ -7,7 +7,7 @@ www/public
 www/package.json
 www/package-lock.json
 www/yarn.lock
-@webmaeistro/gatsby-theme-banshorian/public
-@webmaeistro/gatsby-theme-banshorian/package.json
-@webmaeistro/gatsby-theme-banshorian/package-lock.json
-@webmaeistro/gatsby-theme-banshorian/yarn.lock
+gatsby-theme-banshorian/public
+gatsby-theme-banshorian/package.json
+gatsby-theme-banshorian/package-lock.json
+gatsby-theme-banshorian/yarn.lock

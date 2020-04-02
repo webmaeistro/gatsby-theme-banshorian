@@ -1,0 +1,13 @@
+{
+  "name": "banshorian",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "gatsby-theme-banshorian": "*",
+    "gatsby": "^2.20.10",
+    "gatsby-source-graphql": "^2.3.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}
