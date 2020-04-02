@@ -82,7 +82,7 @@
     "gatsby",
     "gatsby-theme",
     "gatsby-plugin",
-    "byfolio"
+    "banshorian"
   ],
   "license": "MIT",
   "main": "index.js",
