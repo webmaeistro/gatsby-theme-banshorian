@@ -7,7 +7,7 @@ import Obfuscate from "react-obfuscate"
 import Menu from "../../menu"
 import styles from "./contact-me.css"
 
-const LayoutContactMe = ({ children, bgClassName }) => {
+const LayoutContactMe = ({ children }) => {
   const [isContactOpen, setIsContactOpen] = useState(false)
 
   function openContact() {
@@ -20,7 +20,7 @@ const LayoutContactMe = ({ children, bgClassName }) => {
 
   function contactButton() {
     return (
-      <div css={styles.contactContactme}>
+      <div css={styles.Contactme}>
         <button
           css={[styles.btn, styles.btnContactme]}
           className="btn-contact-color"
