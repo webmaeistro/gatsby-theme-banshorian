@@ -99,6 +99,8 @@ Home.propTypes = {
   }),
 }
 
+export default Home
+
 export const query = graphql`
   {
     site {
@@ -115,4 +117,3 @@ export const query = graphql`
     }
   }
 `
-export default Home
