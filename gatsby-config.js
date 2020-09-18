@@ -5,7 +5,7 @@
  */
 
 const defaultOptions = {
-  basePath = ``,
+  basePath = `/`,
   path = `${__dirname}/src/`,
   imagesPath = `${__dirname}/src/images/`,
   iconFile = `${__dirname}/src/images/icon.png`,
