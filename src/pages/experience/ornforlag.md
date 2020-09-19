@@ -1,7 +1,7 @@
 ---
 title: ""
 company: "Company Name"
-logo: ../../images/companies/ornforlag.png
+logo: ../../images/companies/ornforlag.jpg
 jobTitle: "My job position"
 skills:
   [
@@ -16,9 +16,9 @@ images:
       layout: "4",
       files:
         [
-          { image: ../../images/companies/ornforlag/ornforlag.png },
-          { image: ../../images/companies/ornforlag/ornforlag.png },
-          { image: ../../images/companies/ornforlag/ornforlag.png },
+          { image: ../../images/companies/ornforlag/ornforlag.jpg },
+          { image: ../../images/companies/ornforlag/ornforlag.jpg },
+          { image: ../../images/companies/ornforlag/ornforlag.jpg },
         ],
     },
     {
@@ -27,9 +27,9 @@ images:
       layout: "1",
       files:
         [
-          { image: ../../images/companies/ornforlag/ornforlag.png },
-          { image: ../../images/companies/ornforlag/ornforlag.png },
-          { image: ../../images/companies/ornforlag/ornforlag.png },
+          { image: ../../images/companies/ornforlag/ornforlag.jpg },
+          { image: ../../images/companies/ornforlag/ornforlag.jpg },
+          { image: ../../images/companies/ornforlag/ornforlag.jpg },
         ],
     },
     {
@@ -38,11 +38,11 @@ images:
       layout: "2",
       files:
         [
-          { image: ../../images/companies/ornforlag/ornforlag.png },
-          { image: ../../images/companies/ornforlag/ornforlag.png },
-          { image: ../../images/companies/ornforlag/ornforlag.png },
-          { image: ../../images/companies/ornforlag/ornforlag.png },
-          { image: ../../images/companies/ornforlag/ornforlag.png },
+          { image: ../../images/companies/ornforlag/ornforlag.jpg },
+          { image: ../../images/companies/ornforlag/ornforlag.jpg },
+          { image: ../../images/companies/ornforlag/ornforlag.jpg },
+          { image: ../../images/companies/ornforlag/ornforlag.jpg },
+          { image: ../../images/companies/ornforlag/ornforlag.jpg },
         ],
       caption: "New Message",
     },
@@ -52,10 +52,10 @@ images:
       layout: "3",
       files:
         [
-          { image: ../../images/companies/ornforlag/ornforlag.png },
-          { image: ../../images/companies/ornforlag/ornforlag.png },
-          { image: ../../images/companies/ornforlag/ornforlag.png },
-          { image: ../../images/companies/ornforlag/ornforlag.png },
+          { image: ../../images/companies/ornforlag/ornforlag.jpg },
+          { image: ../../images/companies/ornforlag/ornforlag.jpg },
+          { image: ../../images/companies/ornforlag/ornforlag.jpg },
+          { image: ../../images/companies/ornforlag/ornforlag.jpg },
         ],
     },
     {
@@ -64,9 +64,9 @@ images:
       layout: "5",
       files:
         [
-          { image: ../../images/companies/ornforlag/ornforlag.png },
-          { image: ../../images/companies/ornforlag/ornforlag.png },
-          { image: ../../images/companies/ornforlag/ornforlag.png },
+          { image: ../../images/companies/ornforlag/ornforlag.jpg },
+          { image: ../../images/companies/ornforlag/ornforlag.jpg },
+          { image: ../../images/companies/ornforlag/ornforlag.jpg },
         ],
     },
   ]

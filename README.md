@@ -161,13 +161,13 @@ All layout images must be relative to company directory, for example: `imagesPat
 
 For each Skill you must add the logo of the Framework, library or program, with a resolution of **width: 500px, height: 500px**, in the src/images/skills/ directory I leave several logos, **only Skills logos that I own are present, if the logo you need does not appear you must create it**.
 
-Layout number is for image animation you can select from 1 to 5, **please do not forget to add the images "images/companies/ornforlag.png, images/skills/html5.png, images/skills/react.png, images/companies/ornforlag/ornforlag.png" to run the following example**
+Layout number is for image animation you can select from 1 to 5, **please do not forget to add the images "images/companies/ornforlag.jpg, images/skills/html5.png, images/skills/react.png, images/companies/ornforlag/ornforlag.jpg" to run the following example**
 
 ```yaml
 ---
 title: ""
 company: "Company Name"
-logo: ../images/companies/ornforlag.png
+logo: ../images/companies/ornforlag.jpg
 jobTitle: "My job position"
 skills:
   [
@@ -182,9 +182,9 @@ images:
       layout: "4",
       files:
         [
-          { image: ../images/companies/ornforlag/ornforlag.png },
-          { image: ../images/companies/ornforlag/ornforlag.png },
-          { image: ../images/companies/ornforlag/ornforlag.png },
+          { image: ../images/companies/ornforlag/ornforlag.jpg },
+          { image: ../images/companies/ornforlag/ornforlag.jpg },
+          { image: ../images/companies/ornforlag/ornforlag.jpg },
         ],
     },
     {
@@ -193,9 +193,9 @@ images:
       layout: "1",
       files:
         [
-          { image: ../images/companies/ornforlag/ornforlag.png },
-          { image: ../images/companies/ornforlag/ornforlag.png },
-          { image: ../images/companies/ornforlag/ornforlag.png },
+          { image: ../images/companies/ornforlag/ornforlag.jpg },
+          { image: ../images/companies/ornforlag/ornforlag.jpg },
+          { image: ../images/companies/ornforlag/ornforlag.jpg },
         ],
     },
     {
@@ -204,11 +204,11 @@ images:
       layout: "2",
       files:
         [
-          { image: ../images/companies/ornforlag/ornforlag.png },
-          { image: ../images/companies/ornforlag/ornforlag.png },
-          { image: ../images/companies/ornforlag/ornforlag.png },
-          { image: ../images/companies/ornforlag/ornforlag.png },
-          { image: ../images/companies/ornforlag/ornforlag.png },
+          { image: ../images/companies/ornforlag/ornforlag.jpg },
+          { image: ../images/companies/ornforlag/ornforlag.jpg },
+          { image: ../images/companies/ornforlag/ornforlag.jpg },
+          { image: ../images/companies/ornforlag/ornforlag.jpg },
+          { image: ../images/companies/ornforlag/ornforlag.jpg },
         ],
       caption: "New Message",
     },
@@ -218,10 +218,10 @@ images:
       layout: "3",
       files:
         [
-          { image: ../images/companies/ornforlag/ornforlag.png },
-          { image: ../images/companies/ornforlag/ornforlag.png },
-          { image: ../images/companies/ornforlag/ornforlag.png },
-          { image: ../images/companies/ornforlag/ornforlag.png },
+          { image: ../images/companies/ornforlag/ornforlag.jpg },
+          { image: ../images/companies/ornforlag/ornforlag.jpg },
+          { image: ../images/companies/ornforlag/ornforlag.jpg },
+          { image: ../images/companies/ornforlag/ornforlag.jpg },
         ],
     },
     {
@@ -230,9 +230,9 @@ images:
       layout: "5",
       files:
         [
-          { image: ../images/companies/ornforlag/ornforlag.png },
-          { image: ../images/companies/ornforlag/ornforlag.png },
-          { image: ../images/companies/ornforlag/ornforlag.png },
+          { image: ../images/companies/ornforlag/ornforlag.jpg },
+          { image: ../images/companies/ornforlag/ornforlag.jpg },
+          { image: ../images/companies/ornforlag/ornforlag.jpg },
         ],
     },
   ]
