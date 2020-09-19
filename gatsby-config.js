@@ -17,7 +17,7 @@ const defaultOptions = {
   siteDescription: `This cool App contains information about my work experience as a software developer.`,
   siteKeywords: `Software developer, Full Stack Developer`,
   useMozJpeg: true,
-  menuLinks = [
+  menuLinks: [
     // title = Link text
     // color = Animation background color on click
     { name: `home`, title: `Home`, color: `#000`, link: `` },
@@ -27,7 +27,7 @@ const defaultOptions = {
     // { name: ``, title: `Batman`, link: `/imBatman`, color: `yellow` },
   ],
   email: `marander@pm.me`,
-  social = {
+  social: {
     // Usernames
     twitter: `webmaeistro`,
     gitHub: `webmaeistro`,
