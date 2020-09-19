@@ -70,7 +70,7 @@ const defaultOptions = {
   footer: `heart`,
 }
 
-export default (userOptions = {}) => {
+module.exports = (userOptions = {}) => {
   const options = Object.fromEntries(
     Object.entries(Object.assign({}, defaultOptions, userOptions)).map(
       ([key, value]) => {
