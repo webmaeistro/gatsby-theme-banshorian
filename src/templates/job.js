@@ -44,11 +44,11 @@ export default ({ data }) => {
       <Skill
         skills={post.frontmatter.skills}
         type="static"
-        title="Tools used"
+        title="Used tech"
         style={{ overflow: "hidden", backgroundColor: "#fff" }}
         showLoadingAnimation={false}
-        description="The list of tools used here corresponds to the Languages, Frameworks,
-        Libraries or Apps that I used in each of the roles performed."
+        description="The following list here corresponds to the ¨tech': Languages, Frameworks,
+        Libraries or Platforms that I used thruout all my work experiences here. "
       />
     </>
   )

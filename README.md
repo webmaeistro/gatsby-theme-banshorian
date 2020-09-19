@@ -6,7 +6,7 @@ Build and tweak on existing elements. special focus on the menu-transision. i lo
 
 I want to give it a brush-up with a style-concept like **"Banshee series"** meets **"the mandalorian series"** and gave birth to showcase:project/person:application-development site.
 
-workin progress..
+
 
 ## want to contribute
 
@@ -65,8 +65,8 @@ module.exports = {
         path: `src/`,
         imagesPath: `src/images/`,
         iconFile: `src/images/icon.png`,
-        siteTitle: `Portfolio`,
-        siteUrl: `https://gatsby-starter-banshorian.netlify.app`,
+        siteTitle: `Banshorian profile`,
+        siteUrl: `https://gatsby-starter-banshorian.vercel.app`,
         siteName: `Martin Andersen CV`,
         siteShortName: `MA`,
         siteDescription: `This cool App contains information about my work experience as a software developer.`,
@@ -97,7 +97,7 @@ module.exports = {
         homePage: {
           availableToHire: true,
           dotColors: ["#0e3e1e", "#6CC551"],
-          h1Text: `Hi!, I'm your name`,
+          h1Text: `Hi! I'm your name`,
           h2Text: `line two.`,
           typewriter: [
             `Coding is my passion 😎`,
@@ -131,13 +131,13 @@ module.exports = {
 
 | Option name     | Type    | Description                                                                                                                           |
 | --------------- | ------- | ------------------------------------------------------------------------------------------------------------------------------------- |
-| basePath        | string  | Where should the site be served from? /porfolio will change all paths to start with /porfolio                                         |
+| basePath        | string  | Where should the site be served from? /banshorian will change all paths to start with /banshorian                                         |
 | path            | string  | Place where the files are stored, for example: `src/`                                                                                 |
 | imagesPath      | string  | Place where the images files are stored, for example: `src/images/`                                                                   |
 | iconFile        | string  | Provides the icon path for the gatsby-plugin-manifest plugin                                                                          |
 | typographyPath  | string  | Place where the file that defines your website’s typography configuration is located                                                  |
 | siteTitle       | string  | The main title for the website, used in the `<title>` element                                                                         |
-| siteUrl         | string  | The portfolio url, example: `https://gatsby-startter-banshorian.netlify.app`                                                                       |
+| siteUrl         | string  | The CV url, example: `https://gatsby-startter-banshorian.vercel.app`                                                                       |
 | siteName        | string  | Represents the name of the web application as it is usually displayed to the user                                                     |
 | siteShortName   | string  | Represents a short version of the name of the web application                                                                         |
 | siteDescription | string  | Allows you to describe the purpose of the web application                                                                             |
@@ -371,7 +371,7 @@ You can change the about-me text in the "src/gatsby-theme-banshorian/contentJSON
 
 ## Examples
 
-- [My Portfolio](https://martin-andersen-cv.now.sh)
+- [My Portfolio](https://gatsby-starter-banshorian.vercel.app)
 - [Mario Gómez Portfolio](http://mariogmz.com)
 
 Are you using this theme in your own project? Submit a PR with your website added to this list!

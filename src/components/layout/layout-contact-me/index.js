@@ -26,6 +26,7 @@ const LayoutContactMe = ({ children, bgClassName }) => {
           className="btn-contact-color"
           onClick={openContact}
           title="Contact me"
+          aria-label="Open Contant-Me Section"
           data-test="contactme"
         >
           <svg className="icon">

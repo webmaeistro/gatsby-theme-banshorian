@@ -61,7 +61,7 @@ const Home = ({
             {availableToHire && (
               <div css={styles.dataTopbar}>
                 <div css={dotCss} ref={dotAnimation}></div>
-                <p>Available to be hired</p>
+                <p>Available for jobs</p>
               </div>
             )}
             <h1>{h1Text}</h1>

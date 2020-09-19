@@ -258,6 +258,7 @@ const Menu = ({
           className={`hamburger${isMenuOpen ? " is-opened-navi" : ""}`}
           ref={elmHamburger}
           data-test="menu"
+          aria-label="Toggel Main Menu"
           onClick={elmHamburgerClick}
         >
           <div className="hamburger-line hamburger-line-1">

@@ -1,10 +1,10 @@
 {
   "name": "gatsby-theme-banshorian",
   "description": "A simplified way to create a cv/work/portfolio using GatsbyJS. Based on byfolio",
-  "author": "Martin Andersen <marander@pm.me",
+  "author": "Martin Andersen <marander@pm.me> (@webmaeistro)",
   "main": "index.js",
   "private": false,
-  "version": "2.1.4",
+  "version": "2.1.5",
   "license": "MIT",
   "keywords": [
     "gatsby",
