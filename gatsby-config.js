@@ -5,18 +5,18 @@
  */
 
 const defaultOptions = {
-  basePath = `/`,
-  path = `${__dirname}/src/`,
-  imagesPath = `${__dirname}/src/images/`,
-  iconFile = `${__dirname}/src/images/icon.png`,
-  typographyPath = `${__dirname}/src/utils/typography`,
-  siteTitle = `CV`,
-  siteUrl = `martin-andersen-cv.vercel.app`,
-  siteName = `Martin Andersen`,
-  siteShortName = `MA`,
-  siteDescription = `This cool App contains information about my work experience as a software developer.`,
-  siteKeywords = `Software developer, Full Stack Developer`,
-  useMozJpeg = true,
+  basePath: ``,
+  path: `${__dirname}/src/`,
+  imagesPath: `${__dirname}/src/images/`,
+  iconFile: `${__dirname}/src/images/icon.png`,
+  typographyPath: `${__dirname}/src/utils/typography`,
+  siteTitle: `CV`,
+  siteUrl: `martin-andersen-cv.vercel.app`,
+  siteName: `Martin Andersen`,
+  siteShortName: `MA`,
+  siteDescription: `This cool App contains information about my work experience as a software developer.`,
+  siteKeywords: `Software developer, Full Stack Developer`,
+  useMozJpeg: true,
   menuLinks = [
     // title = Link text
     // color = Animation background color on click
@@ -26,7 +26,7 @@ const defaultOptions = {
     { name: `aboutMe`, title: `About Me`, color: `#fff`, link: `` },
     // { name: ``, title: `Batman`, link: `/imBatman`, color: `yellow` },
   ],
-  email = `marander@pm.me`,
+  email: `marander@pm.me`,
   social = {
     // Usernames
     twitter: `webmaeistro`,
@@ -45,8 +45,8 @@ const defaultOptions = {
       `Gutenberg blocks rock`,
       `I'm a 🍕 lover`,
       `I'm a pretty fast learner and always interested in learning new technologies 🤓`,
-      `I think one of my values is the <strong>ability to resolve problems<strong>`,
-      `I like to share what I know 👨‍🏫`,
+      `I think one of my values is the <strong>ability to find solutions <strong>`,
+      `I like to share what I know`,
       `In my non-coding hours, I'm a' family man‍`,
       `I also do design and UX work using mostly <span style:'color: #27ae60;'>figma.com</span> `,
     ],
