@@ -15,7 +15,7 @@ const defaultOptions = {
   siteName: `Martin Andersen`,
   siteShortName: `MA`,
   siteDescription: `This cool App contains information about my work experience as a software developer.`,
-  siteKeywords: `Software developer, Full Stack Developer`,
+  siteKeywords: `Gatsbyjs, CV, Work portfolio, Full Stack Developer`,
   useMozJpeg: true,
   menuLinks: [
     // title = Link text
@@ -168,6 +168,10 @@ module.exports = (userOptions = {}) => {
           theme_color: `#fff`,
           display: `standalone`,
           icon: iconFile,
+          icon_options: {
+            // For all the options available, please see https://www.gatsbyjs.com/plugins/gatsby-plugin-manifest/.
+            purpose: `any maskable`,
+          },
         },
       },
       {
