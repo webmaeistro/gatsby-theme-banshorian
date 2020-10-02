@@ -1,6 +1,6 @@
 _Credits: Excellent [repo by @webmaeistro](https://github.com/webmaeistro/gatsby-theme-banshorian) (original readme file under dotted line below follow instructions for install there), big ups dude! ._
 
-# gatsby-theme-~banshorian~-banshorian
+# gatsby-theme-banshorian-banshorian
 
 ## What this fork sets out to do
 
